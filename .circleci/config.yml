@@ -5,4 +5,4 @@ workflows:
   scan-iac:
     jobs:
       - snyk/scan-iac:
-         args: good
+         args: superbad
