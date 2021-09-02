@@ -6,3 +6,4 @@ workflows:
     jobs:
       - snyk/scan-iac:
          args: superbad
+         
