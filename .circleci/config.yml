@@ -1,0 +1,8 @@
+version: 2.1
+orbs:
+  snyk: snyk/snyk@1.0.2
+workflows:
+  scan-iac:
+    jobs:
+      - snyk/scan-iac:
+         args: bad
